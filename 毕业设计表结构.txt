@@ -1,0 +1,55 @@
+users用户表
+u_id 用户序号
+u_username 名字
+u_password 密码
+createtime 初始时间
+updatetime 结束时间
+
+product商品表
+p_id 商品序号
+p_name 商品名字
+p_marque 商品型号
+p_price 商品价格
+p_stock 商品库存
+createtime 初始时间
+updatetime 结束时间
+
+order 订单表
+o_id 自动编号
+o_no 订单单号
+shop_id 商店编号
+o_status 订单状态
+o_count 商品数量
+o_amount 订单金额
+createtime 初始时间
+updatetime 结束时间
+
+shipping 收货地址表
+s_id 收货地址序号
+s_name  收货姓名
+s_phone 收货电话
+s_province 收货省份
+s_city 收货城市
+s_district 收货区/县
+s_address 收货详细地址
+s_zip 收货邮编
+createtime 初始时间
+updatetime 结束时间
+
+pay 支付表
+s_id 收货地址序号
+u_id 用户id
+o_id 订单单号
+o_no 订单编号
+o_amount 订单金额
+p_status 支付状态
+createtime 初始时间
+updatetime 结束时间
+
+cart 购物车表
+u_id 序号
+p_id 商品序号
+o_count 商品数量
+c_selected 是否选择
+createtime 初始时间
+updatetime 结束时间
