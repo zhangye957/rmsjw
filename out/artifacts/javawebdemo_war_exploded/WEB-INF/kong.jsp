@@ -31,15 +31,22 @@
             margin: auto;
             top: 30px;
         }
+        #k{
+            position: absolute;
+            font-size: 33px;
+            left: 200px;
+            top: 100px;
+        }
     </style>
 </head>
+<p id="k">用户名或密码输入错误</p>
 <body>
 <form action="/backed/user/login" method="post">
     <p>请输入账户名</p>
-        <input type="text" placeholder="账户" name="username">
+    <input type="text" placeholder="账户" name="username">
     <p>请输入密码</p>
-        <input type="password" placeholder="密码" name="password">
-        <input id="button" type="submit" value="登录">
+    <input type="password" placeholder="密码" name="password">
+    <input id="button" type="submit" value="登录">
 </form>
 </body>
 </html>
