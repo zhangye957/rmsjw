@@ -11,10 +11,11 @@
     <title>管理员登录</title>
     <style>
         body{
-            background-image: url("/beijing.jpg");
+            background-image: url("/beijing.png");
             display: flex;
             justify-content: center;
             align-items: center;
+            color: white;
         }
         p{
             size: 20px;
@@ -31,8 +32,17 @@
             margin: auto;
             top: 30px;
         }
+        #shouye {
+            width: 100%;
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            top: 40px;
+            font-size: 40px;
+        }
     </style>
 </head>
+<p id="shouye">欢迎来到手工艺品后台管理系统</p>
 <body>
 <form action="/backed/user/login" method="post">
     <p>请输入账户名</p>

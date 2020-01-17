@@ -32,10 +32,10 @@ public class ResponseCode<T> {
 
     @Override
     public String toString() {
-        return "ResponseCode{" +
-                "status=" + status +
-                ", data=" + data +
-                ", msg='" + msg + '\'' +
+        return "{" +
+                "status:" + status +
+                ", data:" + data +
+                ", msg:'" + msg + '\'' +
                 '}';
     }
 

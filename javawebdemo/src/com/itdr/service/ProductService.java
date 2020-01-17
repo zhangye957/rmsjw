@@ -8,4 +8,8 @@ import java.io.IOException;
 
 public interface ProductService {
     ResponseCode getAllProduct();
+
+    ResponseCode toType(String id);
+
+    ResponseCode fuzzySearch(String key);
 }

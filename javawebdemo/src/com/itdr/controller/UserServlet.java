@@ -49,7 +49,7 @@ public class UserServlet extends HttpServlet {
             HttpSession session=request.getSession();
             Users data=login.getData();
             session.setAttribute("us",data);
-            request.setAttribute("user",login);
+
             request.getRequestDispatcher("/WEB-INF/home.jsp").forward(request,response);
         }else {
             request.getRequestDispatcher("/WEB-INF/kong.jsp").forward(request,response);
